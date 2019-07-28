@@ -4,6 +4,12 @@
 # Log file
 *.log
 
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
 # Package Files #
 *.jar
 *.war
@@ -13,8 +19,8 @@
 *.tar.gz
 *.rar
 
-# Eclipse
-.settings/**
-target/**
+# Eclipse / Java files and directories
 .classpath
 .project
+**/target/*
+**/.settings/*
